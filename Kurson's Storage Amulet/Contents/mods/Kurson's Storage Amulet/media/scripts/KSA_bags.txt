@@ -1,0 +1,21 @@
+module Base
+{
+    
+	item StorageAmulet
+	{
+	 	WeightReduction		= 95,
+		Weight			= 0.2,
+		Type			= Container,
+		Capacity		= 30,
+		DisplayName		= Storage amulet,
+		DisplayCategory		= Accessory,
+		WorldStaticModel	= Necklace_GoldDiamond_Ground,
+		Icon			= StorageAmulet,
+		ClothingItem 		= Necklace_GoldRuby,
+		CanBeEquipped 		= SANecklaceContainer,
+		BodyLocation 		= SANecklaceContainer,
+		OpenSound   		= OpenBag,
+		CloseSound   		= CloseBag,
+		PutInSound   		= PutItemInBag,
+	}
+}
